@@ -27,7 +27,7 @@ const Home = () => {
 
 			<div className="row d-flex align-items-center justify-content-center home-hero">
 				<div className="col-12 col-md-6 text-center">
-					<h1 className="home-title">Laboratorio de analisis clinicos Atotonilquillo</h1>
+					<h1 className="home-title">Laboratorio de Analisis Clinicos Atotonilquillo</h1>
 				</div>
 			</div>
 
