@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/laboratorios-atotonilquillo/precache-manifest.aab0da626ccbb7789642a43a45c69577.js"
+  "/laboratorios-atotonilquillo/precache-manifest.2f2ef6106770f56a1c7b7aceb8c5c16d.js"
 );
 
 self.addEventListener('message', (event) => {
