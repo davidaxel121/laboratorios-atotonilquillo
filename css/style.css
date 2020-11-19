@@ -1,30 +1,28 @@
-/* Main styles*/
-
-/* Global styles here*/
-
-/* Color schema reference from: https://mycolor.space/?hex=%23419A1C&sub=1 */
+/* Color schema reference from: https://mycolor.space/?hex=%23009DFF&sub=1 */
 
 :root {
 	--color-black: #000000;
-	--color-white: #ffffff;
+	--color-white: #F5FAFF;
 	--color-gray: #d1d1d1;
-	--color-blue: #3D9BD0;
+  --color-blue: #009dff;
+  --light-blue-font: #E6F4F1;
   }
   
   html,
-  body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  body,
+  * {
+  font-family: "Poppins",sans-serif !important;
   margin: 0;
   padding: 0;
-  }  
-
-  .col{
-    padding: 0 !important;
+  }
+  
+  body{
+    background-color: var(--color-white);
   }
 
-.home-container {
-    /* min-height: 100vh; */
-    /* background-color: "#ff00ff"; */
+  .btn-blue{
+    background-color: var(--color-blue);
+    color: var(--color-white);
   }
   
   .rowe{
@@ -43,14 +41,18 @@
     border-bottom: 1px solid var(--color-gray);
   }
   
-  .navbar-link {
+  .nav-link {
     text-decoration: none;
     color: black;
   }
   
-  .navbar-link:hover {
-    color: var(--color-blue);
+  .nav-link:hover {
+    color: var(--color-blue) !important;
     text-decoration: none;
+  }
+
+  .navbar-toggler, .navbar-toggler-icon{
+    outline: none !important;
   }
   
   /* Hero styles */
