@@ -8,6 +8,10 @@
   --light-blue-font: #e6f4f1;
 }
 
+html{
+	scroll-behavior: smooth;
+}
+
 html,
 body,
 * {
