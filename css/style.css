@@ -1,108 +1,113 @@
 /* Color schema reference from: https://mycolor.space/?hex=%23009DFF&sub=1 */
 
 :root {
-	--color-black: #000000;
-	--color-white: #F5FAFF;
-	--color-gray: #d1d1d1;
+  --color-black: #000000;
+  --color-white: #f5faff;
+  --color-gray: #dddddd;
   --color-blue: #009dff;
-  --light-blue-font: #E6F4F1;
-  }
-  
-  html,
-  body,
-  * {
-  font-family: "Poppins",sans-serif !important;
+  --light-blue-font: #e6f4f1;
+}
+
+html,
+body,
+* {
+  font-family: "Poppins", sans-serif !important;
   margin: 0;
   padding: 0;
-  }
-  
-  body{
-    background-color: var(--color-white);
-  }
+}
 
-  .btn-blue{
-    background-color: var(--color-blue);
-    color: var(--color-white);
-  }
-  
-  .rowe{
-    min-height: 50vh; ;
-  }
+body {
+  background-color: var(--color-white);
+}
 
-  /* Navbar Styles*/
+.btn-blue {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+}
+
+.rowe {
+  min-height: 50vh;
+}
+
+/* Navbar Styles*/
 
 .navbar-container {
-    margin-bottom: 56px;
-    /* font-weight: bold; */
-  }
-  
-  .navbar {
-    background-color: var(--color-white);
-    border-bottom: 1px solid var(--color-gray);
-  }
-  
-  .nav-link {
-    text-decoration: none;
-    color: black;
-  }
-  
-  .nav-link:hover {
-    color: var(--color-blue) !important;
-    text-decoration: none;
-  }
+  margin-bottom: 56px;
+  /* font-weight: bold; */
+}
 
-  .navbar-toggler, .navbar-toggler-icon{
-    outline: none !important;
-  }
-  
-  /* Hero styles */
-  
-  .home-hero{
-    min-height: 100vh;
-    background-image: url("../assets/images/hero-background.jpg") !important;
-    background-color: #cccccc;
-    /* height: 500px;*/
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: var(--color-white);
-  }
-  
-  /* About us*/
-  .about-us{
-    background-color: lightgray;
-  }
-  
-  /* Services */
-  .services{
-    background-color: lightsalmon;
-  }
+.navbar {
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-gray);
+}
 
-  .card{
-    border: 0 !important;
-  }
-  
-  /* Instalations */
-  .instalations{
-    background-color: lightgreen;
-  }
-  
-  /* Atention Hour*/
-  .atention-hour{
-    background-color: lightblue;
-  }
-  
-  /* Ubication */
-  .ubication{
-    background-color: lightskyblue;
-  }
-  
-  /* Contact */
-  .contact{
-    background-color: lightcoral;
-  }
-  
-  /* Footer */
-  .footer{
-    background-color: var(--color-gray);
-  }
+.nav-link {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-link:hover {
+  color: var(--color-blue) !important;
+  text-decoration: none;
+}
+
+.navbar-toggler,
+.navbar-toggler-icon {
+  outline: none !important;
+}
+
+/* Hero styles */
+
+.home-hero {
+  min-height: 100vh;
+  background-image: url("../assets/images/hero-background.jpg") !important;
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--color-white);
+}
+
+/* About us*/
+.about-us {
+  background-color: lightgray;
+}
+
+/* Services */
+.services {
+  background-color: lightsalmon;
+}
+
+.card {
+  border: 1px solid var(--color-gray) !important;
+}
+
+/* Instalations */
+.instalations {
+  background-color: lightgreen;
+}
+
+/* Atention Hour*/
+.atention-hour {
+  background-color: lightblue;
+}
+
+/* Ubication */
+.ubication {
+  background-color: lightskyblue;
+}
+
+/* Contact */
+.contact {
+  background-color: lightcoral;
+}
+
+/* Footer */
+.footer-section {
+  border-top: 1px solid var(--color-gray);
+}
+
+.footer-icon {
+  width: 60px;
+  height: auto;
+}

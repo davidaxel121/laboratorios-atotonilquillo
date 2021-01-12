@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<meta name="description" content="Laboratorio de analisis clinicos Atotonilquillo">
+	<meta name="keywords" content="laboratorio, analisis,clinicos, atotonilquillo, atoto" />
+	<meta name="author" content="davidaxel121" />
+	<meta name="copyright" content="Laboratorio de analisis clinicos Atotonilquillo" />
+	<meta name="robots" content="index follow" />
+	<link href="./assets/icons/icons8-syringe-100.png" rel="icon" type="image/x-icon">
+
+	<!-- Bootstrap CSS -->
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Animations -->
+	<link rel="stylesheet" href="vendor/animatecss/animate.css">
+
+	<!-- Personalized Styles -->
+	<link rel="stylesheet" href="./css/style.css" />
+
+	<!-- Importing vue js -->
+	<script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+
+	<title>Laboratorio de Analisis Clinicos Atotonilquillo</title>
+</head>
+
+<body>
+
+	<!-- Navbar Section -->
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="index.html">Laboratorio</a>
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+				aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse text-center" id="navbarTogglerDemo03">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html#about-us-section">Sobre nosotros</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="index.html#services-section">Servicios</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="index.html#instalations-section">Instalaciones</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="index.html#atention-hour-section">Horario</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="index.html#ubication-section">Ubicación</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="index.html#contact-section">Contacto</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container-fluid home-container">
+
+		<div class="mt-5"></div>
+		<!-- Services section -->
+		<div id="services-section"
+			class="row d-flex align-items-center justify-content-center rowe services-section mb-3 p-3 mt-5">
+			<div class="col-12 text-center">
+
+				<div class="row mb-3">
+					<div class="col-12">
+						<h2 class="home-title">Servicios</h2>
+					</div>
+				</div>
+
+				<div class="row d-flex align-items-center justify-content-center">
+					<div class="col-12">
+						<div class="row d-flex align-items-center justify-content-around">
+
+							<div id="table">
+								<div class="text-center">
+
+									<div class="input-group mb-3">
+										<input type="text" v-model="search" class="form-control"
+											placeholder="Buscar servicio">
+									</div>
+
+									<table id="myTable" class="table table-bordered table-sm" cellspacing="0"
+										width="100%">
+										<thead>
+											<tr>
+												<th scope="col">Servicios</th>
+												<th scope="col">Categoria</th>
+											</tr>
+										</thead>
+										<tbody v-for="info in filteredList">
+											<tr>
+												<td>{{info.Title}}</td>
+												<td>{{info.Category}}</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Contact section -->
+		<div id="contact-section" class="row d-flex align-items-center justify-content-center rowe contact-section p-3">
+			<div class="col-12 text-center">
+				<div class="row">
+
+					<div class="col-12 d-flex mb-3 align-items-center justify-content-center">
+						<h2 class="home-title">Contactanos</h2>
+					</div>
+
+					<div class="col-12">
+						<p>BlueDart</p>
+						<p>Marthandam (K.K District)</p>
+						<p>Tamil Nadu, IND </p>
+						<p>Phone: +91 9159669599 </p>
+						<p>Email: info@bluedart.in </p>
+						<p>Web: www.bluedart.in </p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<!-- Footer section -->
+		<div id="footer-section" class="row d-flex align-items-center justify-content-center footer-section p-3">
+			<div class="col-12 text-center">
+				<div class="row mb-3">
+					<div class="col">
+						<p>Laboratorio de Analisis Clinicos Atotonilquillo</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col d-flex align-items-center justify-content-around">
+						<img class="footer-icon" src="./icons/icon-facebook.svg" alt="Icono facebook">
+						<img class="footer-icon" src="./icons/icon-twitter.svg" alt="Icono twitter">
+						<img class="footer-icon" src="./icons/icon-instagram.svg" alt="Icono instagram">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Bootstrap core JavaScript -->
+	<script src="./vendor/jquery/jquery.min.js"></script>
+	<script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+	<!-- Plugin JavaScript -->
+	<script src="./vendor/jquery-easing/jquery.easing.min.js"></script>
+
+	<!-- Table script -->
+	<script src="./scripts/services.js"></script>
+
+</body>
+
+</html>
