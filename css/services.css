@@ -1,0 +1,11 @@
+/* Services section styles */
+
+#services-section{
+    min-height: 90vh;
+}
+
+/* Table styles */
+
+#table{
+    min-width: 80% !important;
+}
