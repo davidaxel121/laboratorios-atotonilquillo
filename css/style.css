@@ -90,7 +90,7 @@ body {
   min-height: 100vh;
   background-image: url("../assets/images/hero-background.jpg") !important;
   background-color: #cccccc;
-  background-position: center;
+  background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
   color: var(--color-white);
