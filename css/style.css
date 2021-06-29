@@ -8,16 +8,16 @@
   --light-blue-font: #e6f4f1;
 }
 
-html{
-	scroll-behavior: smooth;
-}
-
 html,
 body,
-* {
-  font-family: "Poppins", sans-serif !important;
-  margin: 0;
-  padding: 0;
+	* {
+	font-family: "Poppins", sans-serif !important;
+	margin: 0;
+	padding: 0;
+	}
+
+html{
+	scroll-behavior: smooth;
 }
 
 body {
@@ -29,39 +29,10 @@ body {
   color: var(--color-white);
 }
 
-/* Scroll bar */
-
-/* width */
-::-webkit-scrollbar {
-  width: 4px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px var(--color-gray); 
-  border-radius: 10px;
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: var(--color-blue); 
-  border-radius: 10px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #004774; 
-}
-
-.rowe {
-  min-height: 50vh;
-}
-
-/* Navbar Styles*/
+/* -------------------> Navbar Styles*/
 
 .navbar-container {
   margin-bottom: 56px;
-  /* font-weight: bold; */
 }
 
 .navbar {
@@ -84,7 +55,7 @@ body {
   outline: none !important;
 }
 
-/* Hero styles */
+/* -------------------> Hero styles */
 
 .home-hero {
   min-height: 100vh;
@@ -96,12 +67,12 @@ body {
   color: var(--color-white);
 }
 
-/* About us*/
+/* -------------------> About us section */
 .about-us {
   background-color: lightgray;
 }
 
-/* Services */
+/* -------------------> Services section */
 .services {
   background-color: lightsalmon;
 }
@@ -110,31 +81,11 @@ body {
   border: 1px solid var(--color-gray) !important;
 }
 
-/* Instalations */
-.instalations {
-  background-color: lightgreen;
-}
-
-/* Atention Hour*/
-.atention-hour {
-  background-color: lightblue;
-}
-
-/* Ubication */
-.ubication {
-  background-color: lightskyblue;
-}
-
-/* Contact */
-.contact {
-  background-color: lightcoral;
-}
-
 .contact-links:hover{
 	color: var(--color-blue);
 }
 
-/* Footer */
+/* -------------------> Footer section */
 .footer-section {
   border-top: 1px solid var(--color-gray);
 }
