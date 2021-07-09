@@ -55,6 +55,10 @@ body {
   outline: none !important;
 }
 
+.navbar-image {
+	width: 4.5rem;
+}
+
 /* -------------------> Hero styles */
 
 .home-hero {
@@ -72,9 +76,14 @@ body {
   background-color: lightgray;
 }
 
+.about-us-image {
+	width: 100%;
+}
+
 /* -------------------> Services section */
-.services {
-  background-color: lightsalmon;
+.services-image {
+  /* background-color: var(--color-blue); */
+  width: 100%;
 }
 
 .card {

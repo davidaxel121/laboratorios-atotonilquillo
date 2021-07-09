@@ -1,6 +1,6 @@
 const normalServices = [
 	{
-		"Title": "Citometría Hemática",
+		"Title": "Biométria - Citometria Hemenatica Completa",
 		"Category": "Hematologia"
 	},
 	{
